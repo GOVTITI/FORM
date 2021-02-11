@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+ 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Container holding the image and the text */
+.container {
+  Position: relative;
+  Text-align: center;
+  color: Black;
+ 
+}
+
+/* Bottom left text */
+.bottom-left {
+	Position: absolute;
+	bottom: 8px;
+	left: 6px;
+}
+
+/* Top left text */
+.top-left {
+	Position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+/* Top Right Text */
+.top-right {
+	Position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+/* Bottom Right Text */
+.bottom-right {
+	Position: absolute;
+	bottom: 8px;
+	right: 16px;
+}
+
+/* centered text */
+.centered {
+	position: absolute;
+	top: 600%;
+	bottom: 50%;
+	left: 40%;
+	
+	transform: translate(-40%, -50%);
+}
